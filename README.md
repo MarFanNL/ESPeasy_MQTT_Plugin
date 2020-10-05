@@ -44,15 +44,16 @@ Use the 'Unit Number' in Config for example or have a different 'Unit Name'
 
 1. Create a device of type 'Temperature' (DS18b20 for example)
 * Make sure you check the 'Send to Controler' 
-2. Created device in Domoticz will have a name **sysname**_**unit**_**tskname**
+2. Created device in Domoticz will have a name **sysname\_unit\_tskname**
 * Value name of the Device MUST be Temperature
 
 ## ESP Easy | ltho
 ```from domoticz --> ESP easy is currently not working```
 
 1. Create a device of type 'Itho ventilation remote' with the name ltho (mondatory)
-2. 3 devices will be create in Domoticz
-a. **sysname**_**unit**_**tskname**_State (SelSwitch with 3 states)
-b. **sysname**_**unit**_**tskname**_Timer
-c. **sysname**_**unit**_**tskname**_LastIDindex
+2. 3 devices will be create in Domoticz, all with a prefix **sysname\_unit\_tskname**
+ - **\_State** --> A selSwitch-device with 3 states (you can rename the state in domoticz)
+ - **\_Timer** --> A Text-device 
+ - **\_LastIDindex** --> A Text-device
+
   
