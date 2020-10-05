@@ -52,7 +52,7 @@ Use the 'Unit Number' in Config for example or have a different 'Unit Name'
 
 1. Create a device of type 'Itho ventilation remote' with the name ltho (mondatory)
 2. 3 devices will be create in Domoticz
-  a. **sysname**_**unit**_**tskname**_State (SelSwitch with 3 states)
-  b. **sysname**_**unit**_**tskname**_Timer
-  c. **sysname**_**unit**_**tskname**_LastIDindex
+a. **sysname**_**unit**_**tskname**_State (SelSwitch with 3 states)
+b. **sysname**_**unit**_**tskname**_Timer
+c. **sysname**_**unit**_**tskname**_LastIDindex
   
