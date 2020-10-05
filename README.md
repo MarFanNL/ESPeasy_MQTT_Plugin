@@ -36,6 +36,7 @@ When the ESPeasy publish a device for the first time, the device will be created
 1. Create a Controller of type OpenHAB MQTT
 2. Set the 'Controler Subscribe' to : ESP_easy/%sysname%_%unit%/#
 3. Set the 'Controler Publish' to : ESP_easy/%sysname%_%unit%/%tskname%/%valname%
+
 ```!! No leading / !!```
 * When you have more then one ESP easy in your setup, make sure they are unique. (Devices created in Domoticz will use this name)
 Use the 'Unit Number' in Config for example or have a different 'Unit Name' 
@@ -43,9 +44,9 @@ Use the 'Unit Number' in Config for example or have a different 'Unit Name'
 ## ESP Easy | Temperature
 
 1. Create a device of type 'Temperature' (DS18b20 for example)
-* Make sure you check the 'Send to Controler' 
+_Make sure you check the 'Send to Controler'_
 2. Created device in Domoticz will have a name **sysname\_unit\_tskname**
-* Value name of the Device MUST be Temperature
+_Value name of the Device MUST be 'Temperature'_
 
 ## ESP Easy | ltho
 ```from domoticz --> ESP easy is currently not working```
