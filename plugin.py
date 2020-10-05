@@ -107,7 +107,8 @@ class BasePlugin:
          try:           
             cmd = int(Level / 10) + 1
             mqttpath = self.base_topic + "/" + devname.replace('_Itho_State','') + "/Itho/State"
-            self.mqttClient.publish(mqttpath, str(cmd) )
+            # TODO ...
+            #self.mqttClient.publish(mqttpath, str(cmd) )
          except Exception as e:
           Domoticz.Debug(str(e))
           return False
