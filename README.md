@@ -29,7 +29,7 @@ mkdir ESPeasyMQTT
 6. Go to "Hardware" page and add new item with type "ESPeasyMQTT"
 5. Set your MQTT server address and port to plugin settings
 
-When the ESPeasy publish a device for the first time, the Device will be created. You will find these devices on `Setup -> Devices` page.
+When the ESPeasy publish a device for the first time, the device will be created. You will find these devices on `Setup -> Devices` page.
 
 ## MQTT Setup in ESP Easy
 
@@ -43,6 +43,7 @@ Use the 'Unit Number' in Config for example or have a different 'Unit Name'
 ## ESP Easy | Temperature
 
 1. Create a device of type 'Temperature' (DS18b20 for example)
+* Make sure you check the 'Send to Controler' 
 2. Created device in Domoticz will have a name **sysname**_**unit**_**tskname**
 * Value name of the Device MUST be Temperature
 
